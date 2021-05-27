@@ -40,3 +40,8 @@ try:
     test_value(200)
 except ValueToHighError as e:
     print(e)
+
+try:
+    test_value(500)
+except ValueToHighError as e:
+    print(e)
